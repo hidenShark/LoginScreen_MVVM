@@ -56,15 +56,47 @@
 		807AA4DE2B8D477100153559 /* LoginScreen_MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				807AA4F52B8D4AFC00153559 /* Models */,
+				807AA4F42B8D4AF200153559 /* Views */,
+				807AA4F32B8D4ADF00153559 /* ViewModels */,
 				807AA4DF2B8D477100153559 /* AppDelegate.swift */,
 				807AA4E12B8D477100153559 /* SceneDelegate.swift */,
-				807AA4E32B8D477100153559 /* ViewController.swift */,
-				807AA4E52B8D477100153559 /* Main.storyboard */,
 				807AA4E82B8D477400153559 /* Assets.xcassets */,
-				807AA4EA2B8D477400153559 /* LaunchScreen.storyboard */,
 				807AA4ED2B8D477400153559 /* Info.plist */,
 			);
 			path = LoginScreen_MVVM;
+			sourceTree = "<group>";
+		};
+		807AA4F32B8D4ADF00153559 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		807AA4F42B8D4AF200153559 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				807AA4E32B8D477100153559 /* ViewController.swift */,
+				807AA4F62B8D4B0300153559 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		807AA4F52B8D4AFC00153559 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		807AA4F62B8D4B0300153559 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				807AA4E52B8D477100153559 /* Main.storyboard */,
+				807AA4EA2B8D477400153559 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
